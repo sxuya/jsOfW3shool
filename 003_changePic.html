@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 能做什么？</h2>
+
+<p>JavaScript 能够改变 HTML 的属性值。</p>
+
+<p>在本例中，JavaScipt 改变了图象的 src 属性值。</p>
+
+<button onclick="document.getElementById('flowerImage').src='img/flowerOpen.jpg'">flower open</button>
+
+<img id="flowerImage" border="0" src="img/flowerOpen.jpg" style="text-align: center;">
+
+<!-- src 里面多一个 /，就是绝对路径了。
+<img id="flowerImage" border="0" src="/img/flowerOpen.jpg" style="text-align: center;"> -->
+
+
+<button onclick="document.getElementById('flowerImage').src='img/flowerClose.jpg'">flower close</button>
+
+</body>
+</html>
