@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 能够做什么</h2>
+
+<h2>Body 中的 JavaScript</h2>
+
+<p id='changeHere'>这里是原始的段落内容</p>
+
+<button type="button" onclick="changeText()">点击看一看什么样子会发生变化</button>
+<!-- onclick="changeText()" 漏了括号,变成 onclick="changeText", 所以无法正常运行. -->
+
+<!-- 在 <body> 里面, <script> 放在底部, 可以改善显示速度, 因为脚本编译会拖慢显示 -->
+<script>
+	function changeText(){
+		document.getElementById("changeHere").innerHTML = '修改后的段落内容.';
+	}
+</script>
+
+</body>
+</html>
