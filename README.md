@@ -15,8 +15,8 @@ summary and log when learning on w3school.com.cn
 ## 注意点
 
 - JS 不提供任何 **内建** 的打印或者显示函数. 解决方法是:
-  - 使用 window.alert() 写入警告框
-  - 使用 document.write() 写入 HTML 输出(仅仅用于测试)
+  - 使用 window.alert() 写入警告框 (**先**显示 alert 内容, **再**其他内容显示)
+  - 使用 document.write() 写入 HTML 输出 **(仅仅用于测试)**
   - 使用 innerHTML 写入 HTML 元素
   - 使用 console.log() 写入浏览器控制台
 - 
