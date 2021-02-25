@@ -14,3 +14,15 @@ src="img/flower.jpg"
 src="/img/flower.jpg"
 ```
 
+
+
+---
+
+## url 引用 js 文件
+
+使用 GitHub 的 url 导入 js 文件好像不可以, 可能是无法正常引用使用.
+
+
+
+---
+
