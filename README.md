@@ -21,7 +21,7 @@ summary and log when learning on w3school.com.cn
   - 使用 console.log() 写入浏览器控制台
 - JS 对大小写敏感, 比如 lastname 和 lastName 是两个不同的变量; 不会把 VAR 翻译成关键词 var
 - ``` 数字1 + 数字2 + 字符串 + 数字3 + 数字4```, 数字1 和 数字2 会进行运算, 数字3 和 数字4 不会进行运算, 整体最后都会变成 字符串.
-- 
+- JS 从 0~11 表示 一月~十二月, 所以: 2020,12 就是 2021年1月
 
 
 
