@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript 能够做什么</h2>
+
+<p>输入 5 到 10 之间的数字:</p>
+
+<input id="inputText" type="text">
+<button type="button" onclick="testNumber()">检测输入</button>
+
+<p id='changeHere'></p>
+
+<script>
+	function testNumber(){
+		var message, x;
+		message = document.getElementById("changeHere");
+		message.innerHTML = "";
+		x = document.getElementById("inputText").value; // 漏了最后的 .value, 导致一直提示"it isn't a number."
+
+		try {
+			if (x == "") throw "it's empty.";
+			if (isNaN(x)) throw "it isn't a number.";
+			x = Number(x);
+			if (x < 5) throw "it's too small.";
+			if (x > 10) throw "it's too big.";
+		}
+		catch(err) {
+			message.innerHTML = "input:" + err;
+		}
+		finally {
+			document.getElementById("inputText").innerHTML = "";
+		}
+	}
+
+</script>
+
+</body>
+</html>
