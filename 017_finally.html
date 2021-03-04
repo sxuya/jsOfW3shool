@@ -29,7 +29,7 @@
 			message.innerHTML = "input:" + err;
 		}
 		finally {
-			document.getElementById("inputText").innerHTML = "";
+			document.getElementById("inputText").value = ""; // .value 写成了 .innerHTML, 最后无法进行内容的清空重置.
 		}
 	}
 
