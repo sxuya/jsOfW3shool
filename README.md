@@ -23,6 +23,11 @@ summary and log when learning on w3school.com.cn
 - ``` 数字1 + 数字2 + 字符串 + 数字3 + 数字4```, 数字1 和 数字2 会进行运算, 数字3 和 数字4 不会进行运算, 整体最后都会变成 字符串.
 - JS 从 0\~11 表示 一月\~十二月, 所以: 2020,12 就是 2021年1月
 - 1 秒 = 1000 毫秒
+- 作用域。除非有意为之，否则请勿创建全局变量（或函数，能够覆盖 window 变量或函数；任何函数，包括 window 对象，能够覆盖全局变量和函数。）
+- 提升 hoisting
+  - var x = 8; // 放在 code 之后，code 只能使用 y、而没有 值8。
+  - 参考连接：https://www.w3school.com.cn/js/js_hoisting.asp
+  - let / const 没有 提升 hoisting 作用。
 
 
 
