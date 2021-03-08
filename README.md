@@ -33,6 +33,7 @@ summary and log when learning on w3school.com.cn
 - 数据类型: 松散类型.
 - switch 中使用的是「严格比较 ===」
 - return 不可以换行!
+- JS 不支持带有命名索引的数组; 对象使用命名索引.
 - 
 
 
@@ -67,7 +68,10 @@ summary and log when learning on w3school.com.cn
 - 浮点偏差
   - 偏差: 0,1 + 0.2 = 0.3000000004
   - 解决方法: 使用乘除运算. (0.1 * 10 + 0.2 * 10) / 10
-- 
+- 循环性能改善
+  - 差的代码: ``` var i; for (i = 0; i < arr.lenght; i++) {}```
+  - 更好的代码: ``` var i; var l = arr.lenght; for ( i = 0; i < l; i++) {}```
+  - 原因: 包括 for 语句, 每次循环都会执行.
 
 ## 暂时不明
 
