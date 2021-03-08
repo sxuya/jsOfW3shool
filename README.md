@@ -28,6 +28,12 @@ summary and log when learning on w3school.com.cn
   - var x = 8; // 放在 code 之后，code 只能使用 y、而没有 值8。
   - 参考连接：https://www.w3school.com.cn/js/js_hoisting.asp
   - let / const 没有 提升 hoisting 作用。
+- coding conventions
+  - 缩进使用 4 个空格, 而不是 tab. 不同的编译器对 tab 的解释也不尽相同.
+- 数据类型: 松散类型.
+- switch 中使用的是「严格比较 ===」
+- return 不可以换行!
+- 
 
 
 
@@ -35,9 +41,33 @@ summary and log when learning on w3school.com.cn
 
 - JS 语句过长, 可以直接拆行, 拆行的最佳位置是某个运算符
 - 在脚本的开头声明所有变量是个好习惯.
+- coding conventions
+  - 勿使用 new Object()
+    - {} 代替 new Object()
+    - "" 代替 new String()
+    - 0 代替 new Number()
+    - false 代替 new Boolean()
+    - [] 代替 new Array()
+    - /()/ 代替 new RegExp()
+    - function(){} 代替 new Function()
+  - 实例
+    - var x1 = {};
+    - var x2 = "";
+    - var x3 = 0;
+    - var x4 = false;
+    - var x5 = [];
+    - var x6 = /()/;
+    - var x7 = function(){};
 - 
 
 
+
+## 方法
+
+- 浮点偏差
+  - 偏差: 0,1 + 0.2 = 0.3000000004
+  - 解决方法: 使用乘除运算. (0.1 * 10 + 0.2 * 10) / 10
+- 
 
 ## 暂时不明
 
