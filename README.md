@@ -34,6 +34,9 @@ summary and log when learning on w3school.com.cn
 - switch 中使用的是「严格比较 ===」
 - return 不可以换行!
 - JS 不支持带有命名索引的数组; 对象使用命名索引.
+- 函数执行
+  - 定义 时候, 内部的代码不会执行;
+  - 调用 时候,内部的代码会被执行.
 - 
 
 
